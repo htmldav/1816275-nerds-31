@@ -5,26 +5,25 @@
     <link rel="icon" href="favicon.ico">
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic;display=swap">
 </head>
 
 <body>
 
-    <!-- <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p> -->
-    <header>
-        <nav>
-          <ul>
-            <li><a href="index.html"><img src="img/nerds-logo.svg"
-              width="159.87" height="65.02" alt="Лого Nerds"></a></li>
+    <header class="main-header">
+        <nav class="main-navigation">
+          <a class="main-header-logo"><img src="img/nerds-logo.svg" width="159.87" height="65.02" alt="Лого Nerds"></a>
+          <ul class="site-navigation">
             <li><a href="blank.html">Студия</a></li>
             <li><a href="blank.html">Клиенты</a></li>
             <li><a href="#">Магазин</a></li>
             <li><a href="blank.html">Контакты</a></li>
           </ul>
-          <img src="img/Shape.svg"
-              width="15" height="11" alt=""></a>
-          <a href="blank.html">Корзина</a>
+          <img src="img/Shape.svg" width="15" height="11" alt=""></a>
+          <a class="cart-link" href="blank.html">Корзина</a>
         </nav>
-  
+    
       </header>
 
     <main>
@@ -204,44 +203,40 @@
 
     <footer>
         <section>
-          <h2>Контактная информация</h2>
-          <h3>NERDS DESIGN SRUDIO</h3>
-          <p>
-            наб. Реки Карповки, <br>5 лит П, Санкт-Петербург<br>
-            <a href="tel:+78005558628">+7 800 555-86-28</a>
-          </p>
-          <a href="blank.html">Напишите нам</a>
+            <h2>Контактная информация</h2>
+            <h3>NERDS DESIGN SRUDIO</h3>
+            <p>
+                наб. Реки Карповки, <br>5 лит П, Санкт-Петербург<br>
+                <a href="tel:+78005558628">+7 800 555-86-28</a>
+            </p>
+            <a href="blank.html">Напишите нам</a>
         </section>
-        
+
         <section>
-          <h2>Карта</h2>
-          <figure>
-            <img src="img/map.jpg"
-              width="1440" height="416" alt="Карта пути">
-          </figure>
+            <h2>Карта</h2>
+            <figure>
+                <img src="img/map.jpg" width="1440" height="416" alt="Карта пути">
+            </figure>
         </section>
-  
+
         <ul>
-          <li>
-            <a href="#"><img src="img/vkontakte.png" 
-              width="81" height="81" alt="vkontakte"></a>
-          </li>
-          <li>
-            <a href="#"><img src="img/fb-icon.png" 
-              width="81" height="81" alt="fb"></a>
-          </li>
-          <li>
-            <a href="#"><img src="img/insta-icon.png" 
-              width="81" height="81" alt="instagram"></a>
-          </li>
+            <li>
+                <a href="#"><img src="img/vkontakte.png" width="81" height="81" alt="vkontakte"></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/fb-icon.png" width="81" height="81" alt="fb"></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/insta-icon.png" width="81" height="81" alt="instagram"></a>
+            </li>
         </ul>
-  
+
         <section>
-          <h2>Давайте дружить, это выгодно!</h2>
-          <p>Скидка 10% для друзей из социальных сетей.</p>
+            <h2>Давайте дружить, это выгодно!</h2>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
         </section>
     </footer>
-  
+
     <section>
         <h2>Напишите нам</h2>
 
@@ -252,15 +247,15 @@
             <label for="email-email">Ваш email:</label>
             <input id="email-email" type="email" name="email" placeholder="email@example.com">
             <br>
-            
+
 
             <label for="letterText">Текст письма:</label>
 
             <textarea id="letterText" name="letterText" rows="4" placeholder="В свободной форме">
           </textarea>
 
-          <button type="button">Отправить</button>
-          <button type="button">Закрыть</button>
+            <button type="button">Отправить</button>
+            <button type="button">Закрыть</button>
         </form>
     </section>
 </body>
