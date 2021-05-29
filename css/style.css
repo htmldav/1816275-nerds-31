@@ -27,3 +27,35 @@
   --basic-dark-grey:#DFDFDF;
   --basic-extra-dark-grey:#D5D5D5;
 }
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  /* background-image: url("img/bg.jpg"); */
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.rub {
+	line-height: 5px;
+	width: 0.4em;
+	border-bottom: 1px solid #000;
+	display: inline-block;
+}
