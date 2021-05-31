@@ -29,7 +29,7 @@ body {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--basic-black);
   text-transform: uppercase;
   background-color: var(--basic-white);
@@ -52,6 +52,7 @@ img {
 .main-navigation {
   font-size: 16px;
   line-height: 30px;
+  font-weight: 500;
   color: var(--basic-white);
   /* background-color: transparent; */
   background-color: var(--basic-neutral-background-nav);
@@ -87,6 +88,7 @@ img {
 
 .features-list {
   list-style: none;
+  text-transform: none;
 }
 
 .feature-item {
@@ -96,6 +98,13 @@ img {
 .feature-item h3 {
   font-size: 55px;
   line-height: 55px;
+  font-weight: 500;
+}
+
+.features .button {
+  height: 50px;
+  width: 240px;
+  background: var(--basic-red);
 }
 
 /* Services */
@@ -111,6 +120,7 @@ img {
 .services-item h3 {
   font-size: 24px;
   line-height: 30px;
+  font-weight: 700;
 }
 
 .services-item p {
@@ -134,6 +144,7 @@ img {
 .button {
   font-size: 16px;
   line-height: 18px;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   color: var(--basic-white);
@@ -157,6 +168,54 @@ img {
   background: var(--basic-yellow);
 }
 
+/* Company */
+.company h3 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.company p {
+  text-transform: none;
+}
+
+.company h4 {
+  font-weight: 500;
+}
+
+.company p {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.company-list {
+  list-style: none;
+  text-transform: none;
+}
+
+.company-pride-list {
+  list-style: none;
+}
+
+.company-pride-item .advantage  {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: none;
+}
+
+.company-pride-item .percent {
+  font-size: 45px;
+  line-height: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.percent span {
+  font-size: 26px;
+  line-height: 40px;
+  vertical-align: text-top;
+}
 /* ----------------------------------------------------------- */
 
 .rub {
