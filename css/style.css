@@ -216,6 +216,78 @@ img {
   line-height: 40px;
   vertical-align: text-top;
 }
+
+/* Contacts */
+
+.footer-contacts h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.footer-contacts p {
+  text-transform: none;
+}
+
+.footer-contacts .button {
+  height: 50px;
+  width: 219px;
+}
+
+.footer-slogan  h2 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.footer-slogan  p {
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: none;
+}
+
+/* Social button */
+
+.footer-social-list {
+  list-style: none;
+}
+
+/* .social-button:hover,
+.social-button:focus {
+  background-color: var(--basic-white);
+} */
+
+/* Modal */
+
+.modal-description {
+  font-size: 45px;
+  line-height: 53px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.feedback-form {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.feedback-form .button {
+  height: 50px;
+  width: 259px;
+}
+
+/* .modal {
+  color: var(--basic-black);
+  background-color: var(--basic-extra-light);
+  background-image: url("img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+} */
+
 /* ----------------------------------------------------------- */
 
 .rub {
