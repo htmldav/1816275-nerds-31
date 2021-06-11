@@ -23,7 +23,7 @@
 }
 
 .page-body {
-  /* min-width: 1440px; */
+  /* width: 1200px; */
   margin: 0;
   padding: 0;
   font-family: "Roboto", Arial, sans-serif;
@@ -59,9 +59,11 @@ img {
 
 .main-header {
   /* width: 1440px; */
+  /* width: 1200px; */
+  height: 355px;
   margin: 0px;
-  padding: 0px;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
+  margin-bottom: -160px;
   /* outline: 5px solid rgba(0, 255, 0, 0.7); */
   /* outline-offset: -5px; */
   background-color: var(--basic-neutral-background-nav);
@@ -468,28 +470,73 @@ img {
   list-style: none;
 }
 
-.clients-list {
+
+.clients-list .barbershop_logo {
   opacity: 0.2;
 }
 
-.clients-list:hover {
+.clients-list .barbershop_logo:hover {
   opacity: 1;
 }
 
-.clients-list:focus {
+
+.clients-list .barbershop_logo:focus {
   opacity: 0.1;
 }
+
+/* _______________________________________________________________ */
+.clients-list .htmlacademy_logo {
+  opacity: 0.2;
+}
+
+.clients-list .htmlacademy_logo:hover {
+  opacity: 1;
+}
+
+
+.clients-list .htmlacademy_logo:focus {
+  opacity: 0.1;
+}
+/* ------------------------------------------------------------------- */
+.clients-list .pink_logo {
+  opacity: 0.2;
+}
+
+.clients-list .pink_logo:hover {
+  opacity: 1;
+}
+
+
+.clients-list .pink_logo:focus {
+  opacity: 0.1;
+}
+/* ------------------------------------------------------------------- */
+
+.clients-list .mishka_logo {
+  opacity: 0.2;
+}
+
+.clients-list .mishka_logo:hover {
+  opacity: 1;
+}
+
+
+.clients-list .mishka_logo:focus {
+  opacity: 0.1;
+}
+/* ------------------------------------------------------------------- */
+
 
 /* Main footer */
 
 .main-footer {
-  width: 1440px;
+  /* width: 1440px; */
   margin: 0px;
   padding: 0px;
 }
 
 .footer-wrapper {
-  width: 1440px;
+  /* width: 1440px; */
   margin: 0px;
   padding: 0px;
 }
@@ -824,10 +871,9 @@ a.pagination-item-next:active {
   display: none;
 }
 
-/* div.page-title {
+/* .page-title {
   background-color: var(--basic-neutral-background-nav);
-  text-align: center;
-  margin-bottom: 8px;
+  padding-bottom: 155px;
 } */
 
 /* div.page-title h1{
@@ -838,13 +884,42 @@ a.pagination-item-next:active {
 .page-catalog {
   /* width: 1160px;
   margin-left: 140px; */
-  width: 1200px;
+  /* width: 1440px; */
+  /* padding: 0 20px; */
   /* padding: 0 20px; */
   margin: 0 auto;
+  /* display: grid;
+  grid-template-columns: 260px 1fr;
+  align-content: start; */
+}
+
+.title-line {
+  margin-top: 195px;
+}
+
+.page-title {
+  background-color: var(--basic-neutral-background-nav);
+  padding-bottom: 115px;
+}
+
+.main-grid {
   display: grid;
   grid-template-columns: 260px 1fr;
-  align-content: start;
+  grid-template-rows: 85px 1fr;
+  margin-top: -40px;
 }
+
+.order {
+  grid-column: 2 / 2;
+  grid-row: 1 / 1;
+}
+
+.filters {
+  grid-column: 1 / 1;
+  grid-row: 1 / 2;
+}
+
+.cost-range {margin-top: 100px}
 
 /* h1.page-title {
   grid-column: 1 / -1;
@@ -860,13 +935,12 @@ a.pagination-item-next:active {
   display: inline;
 }
 
-.page-catalog .page-title {
+/* .page-catalog .page-title {
   grid-column: 1 / -1;
-}
+} */
 
 .page-title {
-  margin: 0;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   margin-bottom: 15px;
   padding: 0;
 }
@@ -874,7 +948,7 @@ a.pagination-item-next:active {
 
 
 .order {
-  grid-column: 1 / -1;
+  /* grid-column: 1 / -1; */
   margin-bottom: 40px;
   padding: 0;
   margin: 0;
@@ -882,7 +956,11 @@ a.pagination-item-next:active {
 }
 
 .templates {
-  margin-left: 60px;
+  /* margin-left: 60px; */
+  grid-column: 2 / 2;
+  grid-row: 2 / 2;
+  /* grid-column: 2 / 2;
+  grid-row: 2 / -1; */
 }
 
 /* div.title-line {
@@ -897,13 +975,22 @@ a.pagination-item-next:active {
   text-align: left;
 }
 
-.filters-cost, .max-cost, .min-cost {
+
+.cost-range, .max-cost, .min-cost {
   background: var(--basic-neutral-background-nav);
   border: none;
 }
 
 .order-list, .filters-grid-list, .filters-features-list {
   list-style: none;
+}
+
+.filters-grid-list {
+  padding-left: 0px;
+}
+
+.filters-features-list {
+  padding-left: 0px;
 }
 
 fieldset {
@@ -959,3 +1046,4 @@ fieldset {
 .page {
   height: 100%;
 }
+
