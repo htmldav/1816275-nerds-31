@@ -65,6 +65,7 @@ img {
 .main-header-logo {
   width: 160px;
   height: 65px;
+  margin-top: 49px;
 }
 
 /* Main navigation */
@@ -104,13 +105,36 @@ img {
 
 .cart-navigation {
   width: 115px;
+  margin-top: 75px;
+}
+
+.cart-navigation .cart-link {
+  padding-left: 50px;
+  position: relative;
+}
+
+.cart-link::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 8px;
+  width: 15px;
+  height: 11px;
+  background-image: url("../img/Shape.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 
 .site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  width: 437px;
+  min-height: 30px;
   margin: 0;
   padding: 0;
-  width: 437px;
+  margin-top: 75px;
   list-style: none;
 }
 
@@ -120,12 +144,32 @@ img {
 
 /* User navigation */
 
-.site-navigation a, .cart-navigation a {
+.site-navigation a,
+.cart-navigation a {
   color: var(--basic-black);
+  display: block;
 }
 
-.site-navigation a[href="#"] {
+/* .site-navigation a[href="#"] {
   text-decoration: underline var(--basic-red);
+} */
+
+.site-navigation a[href="#"] {
+  position:relative;
+  /* text-decoration: underline var(--basic-red); */
+}
+
+.site-navigation a[href="#"]::after {
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  margin:auto;
+  background:var(--basic-red);
+  width: 73px;
+  height: 2px;
+  bottom: -13px;
 }
 
 .cart-navigation a:hover, .site-navigation a:hover {
@@ -408,6 +452,21 @@ img {
 .company-list {
   list-style: none;
   text-transform: none;
+  /* outline: 5px solid #ff0000; */
+}
+
+.company-item {
+  position: relative;
+}
+
+.company-item::before {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  width: 25px;
+  height: 2px;
+  margin-left: -36px;
+  background-color: var(--basic-red);
 }
 
 .company-pride-list {
@@ -586,7 +645,7 @@ img {
 }
 
 .footer-slogan {
-  padding-left: 140px;
+  padding-left: 139px;
 }
 
 .footer-slogan h2 {
@@ -617,7 +676,7 @@ img {
 .footer-social-list {
   display: flex;
   justify-content: space-between;
-  width: 260px;
+  width: 261px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -635,10 +694,11 @@ img {
   display: inline;
 }
 
-/* .social-button:hover,
-.social-button:focus {
-  background-color: var(--basic-white);
-} */
+.social-button {
+  width: 81px;
+  height: 81px;
+}
+
 
 /* Modal */
 
@@ -1018,4 +1078,17 @@ fieldset {
 
 .page {
   height: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
