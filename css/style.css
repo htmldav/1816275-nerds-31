@@ -69,16 +69,6 @@ img {
 
 /* Main navigation */
 
-/* .main-header-bar {
-  background-color: var(--basic-white);
-  background-color: var(--basic-neutral-background-nav);
-} */
-
-/* .main-navigation-wrapper {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-} */
 
 .main-navigation-wrapper {
   display: flex;
@@ -123,9 +113,12 @@ img {
 }
 
 .site-navigation {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-content: start;
   width: 437px;
   min-height: 30px;
   margin: 0;
@@ -687,8 +680,13 @@ img {
 }
 
 .social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 81px;
   height: 81px;
+  border-radius: 50%;
+  background-color: var(--basic-grey);
 }
 
 /* Modal */
@@ -951,15 +949,20 @@ img {
   background: var(--basic-neutral-background-nav);
 }
 
-.social-button:hover .social-button-background {
-  fill: var(--basic-red)
+.social-button:hover {
+  background-color: var(--basic-red)
 }
 
-.social-button:focus, .social-button:active .social-button-background {
-  fill: var(--basic-extra-dark-red)
+.social-button:focus, .social-button:active {
+  background-color: #D7373B;
 }
 
-.social-button:focus, .social-button:active .social-button-symbol {
+/* .social-button:focus, .social-button:active {
+  fill-opacity: 0.3;
+} */
+
+.social-button:active path,
+.social-button:focus path {
   fill-opacity: 0.3;
 }
 
