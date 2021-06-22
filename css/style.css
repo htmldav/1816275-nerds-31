@@ -1490,7 +1490,7 @@ fieldset {
   opacity: 1;
 }
 
-.templates-item:hover .templates-item::before {
+.templates-item:hover.templates-item::before {
   content: "";
   position: absolute;
   top: 0px;
