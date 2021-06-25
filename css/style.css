@@ -1504,6 +1504,15 @@ img {
   padding-left: 45px;
 }
 
+/* .filter-input:hover + label,
+.filter-input:focus + label {
+  color: green;
+} */
+
+/* .filter-option:focus label{
+  color: green;
+} */
+
 .filter-option label {
   position: relative;
   display: block;
@@ -1525,7 +1534,8 @@ img {
   opacity: 0.6;
 }
 
-.filter-input-checkbox:hover+label::before {
+.filter-input-checkbox:hover+label::before,
+.filter-input-checkbox:focus+label::before {
   content: "";
   position: absolute;
   left: -45px;
@@ -1621,7 +1631,8 @@ img {
   border-radius: 50%;
 }
 
-.filter-input-radio:hover+label::before {
+.filter-input-radio:hover+label::before,
+.filter-input-radio:focus+label::before {
   content: "";
   position: absolute;
   left: -42px;
