@@ -44,22 +44,28 @@
     <div class="title-line"></div>
 
     <section class="order">
+      <div class="cost-name">
+        <h2>Стоимость:</h2>
+      </div>
       <div class="order-name">
         <h2>Сортировать:</h2>
       </div>
-      <ul class="manner-list">
-        <li class="manner-item item-picked">По цене</li>
-        <li class="manner-item">По типу</li>
-        <li class="manner-item">По названию</li>
-      </ul>
-
+      <div>
+        <ul class="manner-list">
+          <li class="manner-item item-picked">По цене</li>
+          <li class="manner-item">По типу</li>
+          <li class="manner-item">По названию</li>
+        </ul>
+      </div>
       <h2 class="visually-hidden">Направление сортировки:</h2>
-      <ul class="order-list">
-        <!-- <li class="order-down-item"><img src="img/catalog/icon-down-gray.svg" width="11" height="10" alt=""></li>
+      <div>
+        <ul class="order-list">
+          <!-- <li class="order-down-item"><img src="img/catalog/icon-down-gray.svg" width="11" height="10" alt=""></li>
         <li class="order-up-item"><img src="img/catalog/icon-up-dir-gray.svg" width="11" height="10" alt=""></li> -->
-        <li class="order-down-item"></li>
-        <li class="order-up-item"></li>
-      </ul>
+          <li class="order-down-item"></li>
+          <li class="order-up-item"></li>
+        </ul>
+      </div>
     </section>
     <div class="main-flex">
       <!-- ------------------------------------------------------------- -->
@@ -67,7 +73,7 @@
         <h2 class="visually-hidden">Фильтр шаблонов</h2>
         <form class="filters-form" method="get" action="https://echo.htmlacademy.ru">
           <fieldset class="filters-cost">
-            <legend>Стоимость:</legend>
+            <legend class="visually-hidden">Стоимость:</legend>
             <div class="range-filter">
               <div class="cost-range">
                 <div class="scale">
@@ -100,20 +106,20 @@
             <legend>Сетка:</legend>
             <ul class="filters-grid-list">
               <li class="filter-option filter-radio filters-grid-item">
-                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" id="filter-responsive"
-                  value="responsive" checked>
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid"
+                  id="filter-responsive" value="responsive" checked>
                 <label for="filter-responsive">Адаптивная</label>
               </li>
 
               <li class="filter-option filter-radio filters-grid-item">
-                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" id="filter-fixing"
-                  value="fixing">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid"
+                  id="filter-fixing" value="fixing">
                 <label for="filter-fixing">Фиксированная</label>
               </li>
 
               <li class="filter-option filter-radio filters-grid-item">
-                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" id="filter-rubber"
-                  value="rubber">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid"
+                  id="filter-rubber" value="rubber">
                 <label for="filter-rubber">Резиновая</label>
               </li>
             </ul>
@@ -123,29 +129,32 @@
             <legend>Особенности:</legend>
             <ul class="filters-features-list">
               <li class="filter-option filters-features-item filter-checkbox">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider"
-                  checked>
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider"
+                  id="filter-slider" checked>
                 <label for="filter-slider">Слайдер</label>
               </li>
 
               <li class="filter-option filters-features-item filter-checkbox">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="block" id="filter-block">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="block"
+                  id="filter-block">
                 <label for="filter-block">Блок преимуществ</label>
               </li>
 
               <li class="filter-option filters-features-item filter-checkbox">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news"
-                  checked>
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news"
+                  id="filter-news" checked>
                 <label for="filter-news">Новости</label>
               </li>
 
               <li class="filter-option filters-features-item filter-checkbox">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery" id="filter-gallery">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery"
+                  id="filter-gallery">
                 <label for="filter-gallery">Галерея</label>
               </li>
 
               <li class="filter-option filters-features-item filter-checkbox">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="bin" id="filter-bin">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="bin"
+                  id="filter-bin">
                 <label for="filter-bin">Корзина</label>
               </li>
             </ul>
