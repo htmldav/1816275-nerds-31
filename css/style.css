@@ -843,6 +843,7 @@ img {
   display: flex;
   justify-content: left;
   /* margin-left: 4px; */
+  padding-bottom: 68px;
 }
 
 .footer-social-list {
@@ -1314,8 +1315,10 @@ img {
 }
 
 .page-catalog {
-  width: 1160px;
+  box-sizing: border-box;
+  width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .title-line {
