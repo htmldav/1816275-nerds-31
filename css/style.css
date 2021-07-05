@@ -761,10 +761,7 @@ img {
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
-  margin: 47px 0 23px 50px;
-  /* margin-left: 50px;
-  margin-top: 47px;
-  margin-bottom: 23px; */
+  margin: 45px 0 23px 50px;
 }
 
 .footer-contacts p {
@@ -1496,8 +1493,12 @@ img {
   padding-left: 0px;
 }
 
+.filters-form .filters-grid {
+  padding: 0px;
+}
+
 .filters-grid ul {
-  margin-top: 12px;
+  margin-top: 17px;
   width: 208px;
 }
 
@@ -1508,7 +1509,7 @@ img {
 .filters-features {
   margin-left: 0px;
   padding-left: 0px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .order h2, .filters-grid legend, .filters-features legend {
