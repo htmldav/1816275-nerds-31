@@ -41,14 +41,6 @@ feedbackButton.addEventListener("click", function (evt) {
   fullNameUser.focus();
 });
 
-
-
-feedbackClose.addEventListener("click", function (evt) {
-  evt.preventDefault();
-  feedbackPopup.classList.remove("modal-show");
-  feedbackPopup.classList.remove("modal-error");
-});
-
 feedbackForm.addEventListener("submit", function (evt) {
   if (!fullNameUser.value || !userEmail.value) {
     evt.preventDefault();
@@ -62,6 +54,12 @@ feedbackForm.addEventListener("submit", function (evt) {
       localStorage.setItem("feedback", userFeedback.value);
     }
   }
+});
+
+feedbackClose.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  feedbackPopup.classList.remove("modal-show");
+  feedbackPopup.classList.remove("modal-error");
 });
 
 window.addEventListener("keydown", function (evt) {
