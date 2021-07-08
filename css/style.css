@@ -370,7 +370,7 @@ img {
   margin: 0px;
   margin-top: 22px;
   padding: 0px;
-  width: 260px !important;
+  width: 260px;
   color: var(--basic-black);
 }
 
@@ -881,9 +881,7 @@ img {
   width: 960px;
   left: calc(50% - 480px);
   min-height: 590px;
-  /* box-shadow: 0px 20px 40px 0px #00000066; */
-  /* display: block !important; */
-}
+ }
 
 .modal-description {
   font-size: 45px;
@@ -1068,10 +1066,10 @@ img {
   background-color: var(--basic-neutral-background-nav);
 }
 
-.pagination-item-next a {
-  width: 260px !important;
-  min-height: 50px !important;
-  line-height: 50px !important;
+.pagination-list .pagination-item-next a {
+  width: 260px;
+  min-height: 50px;
+  line-height: 50px;
   font-size: 16px;
   font-weight: 500;
   display: block;
@@ -1080,13 +1078,13 @@ img {
   background-color: var(--basic-neutral-background-nav);
 }
 
-.pagination-item-current a {
-  width: 44px !important;
-  min-height: 44px !important;
-  line-height: 44px !important;
+.pagination-list .pagination-item-current a {
+  width: 44px;
+  min-height: 44px;
+  line-height: 44px;
   border: 3px solid #DBDBDB;
-  border-radius: 3px !important;
-  background-color: var(--basic-white) !important;
+  border-radius: 3px;
+  background-color: var(--basic-white);
 }
 
 .pagination-item a {
@@ -1138,9 +1136,13 @@ img {
   color: #00000030;
 }
 
-.manner-item:hover {
-  color: #00000060 !important;
+.manner-list .manner-item:hover {
+  color: #00000060;
 }
+
+/* .manner-list .manner-item:hover {
+  color: #00000060!important;
+} */
 
 .manner-list .item-picked {
   color: var(--basic-black);
