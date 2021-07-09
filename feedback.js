@@ -2,8 +2,6 @@ const feedbackButton = document.querySelector(".feedback-button");
 
 const feedbackPopup = document.querySelector(".modal-feedback");
 
-// const feedbackPopup = document.querySelector(".modal");
-
 const feedbackClose = feedbackPopup.querySelector(".modal-close");
 
 const feedbackForm = feedbackPopup.querySelector(".feedback-form");
