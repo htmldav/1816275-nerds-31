@@ -29,7 +29,6 @@ feedbackButton.addEventListener("click", function (evt) {
   evt.preventDefault();
   feedbackPopup.classList.add("modal-show");
 
-
   if (storageName) {
     fullNameUser.value = storageName;
     userEmail.value = storageEmail;

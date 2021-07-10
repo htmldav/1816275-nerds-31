@@ -284,7 +284,6 @@ img {
 /* Services */
 
 .services-list {
-  position: relative;
   list-style: none;
   display: flex;
   gap: 100px;
@@ -292,18 +291,6 @@ img {
   width: 1200px;
   padding: 0 20px;
   margin: 0 auto 121px;
-}
-
-.services-list::after {
-  content: "";
-  position: absolute;
-  box-sizing: border-box;
-  width: 1158px;
-  top: 428px;
-  min-height: 2px;
-  padding: 0 20px;
-  margin: 0 auto;
-  background-color: var(--basic-neutral-background-nav);
 }
 
 .services-item {
@@ -408,6 +395,7 @@ img {
 /* Company */
 
 .company {
+  position: relative;
   box-sizing: border-box;
   width: 1200px;
   min-height: 413px;
@@ -415,6 +403,18 @@ img {
   gap: 150px;
   margin: 0 auto 25px;
   padding: 0 20px;
+}
+
+.company::after {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 1158px;
+  bottom: 550px;
+  min-height: 2px;
+  padding: 0 20px;
+  margin: 0 auto;
+  background-color: var(--basic-neutral-background-nav);
 }
 
 .company-wrapper {
