@@ -778,6 +778,7 @@ img {
 
 .footer-social-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 261px;
   list-style: none;
