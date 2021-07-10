@@ -1200,20 +1200,18 @@ textarea:focus {
   padding: 0 20px;
 }
 
-.title-line {
-  margin-top: 140px;
+.page-title-wrapper {
   background-color: var(--basic-neutral-background-nav);
 }
 
+
 .page-title {
-  background-color: var(--basic-neutral-background-nav);
-  margin: 0 auto;
   font-size: 55px;
   font-weight: 500;
   line-height: 55px;
+  max-width: 727px;
   text-transform: none;
-  text-align: center;
-  margin-top: 0px;
+  margin: 0 auto;
   padding: 71px 0 109px;
 }
 
