@@ -1805,7 +1805,7 @@ fieldset {
 }
 
 .slider-controls .current {
-  background-image: url("../img/sliderActive.svg");
+  background-image: url("../img/slider-active.svg");
   background-position: center center;
   background-repeat: no-repeat;
 }
