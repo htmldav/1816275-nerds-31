@@ -199,13 +199,6 @@ img {
   background-color: var(--basic-neutral-background-nav);
 }
 
-.slider {
-  margin: 0 auto;
-  padding: 0 20px;
-  margin-bottom: 80px;
-  background-color: var(--basic-neutral-background-nav);
-}
-
 .feature-item-slogan p {
   margin-top: 28px;
 }
@@ -1785,6 +1778,9 @@ fieldset {
 
 .slider {
   position: relative;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  background-color: var(--basic-neutral-background-nav);
 }
 
 .slider-controls {
