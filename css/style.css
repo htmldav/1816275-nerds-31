@@ -22,14 +22,14 @@
   --basic-dark-grey: #ababab;
   --basic-cod-grey: #283136;
   --basic-grey-30: #ffffff30;
-  --basic-grey-light:#666666;
+  --basic-grey-light: #666666;
   --basic-very-light-grey: #cfcfcf;
-  --basic-black-30:#00000030;
-  --basic-black-60:#00000060;
-  --basic-grey-extra-light:#f7f7f7;
-  --basic-black-66:#00000066;
-  --basic-black-40:#00000040;
-  --basic-extra-light-blue:#d7dcde;
+  --basic-black-30: #00000030;
+  --basic-black-60: #00000060;
+  --basic-grey-extra-light: #f7f7f7;
+  --basic-black-66: #00000066;
+  --basic-black-40: #00000040;
+  --basic-extra-light-blue: #d7dcde;
   --basic-heather: #b4b9bb;
   --basic-gainsboro: #dbdbdb;
   --basic-grey-shadow: #0001011a;
@@ -399,7 +399,7 @@ img {
 
 .green-button:focus {
   background: var(--basic-extra-dark-green);
-  color:var(--basic-grey-30);
+  color: var(--basic-grey-30);
 }
 
 .yellow-button:hover {
