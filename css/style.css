@@ -866,7 +866,7 @@ textarea:focus {
 .user-email::placeholder,
 .full-name-user::placeholder,
 .user-letter::placeholder {
-  font-family: Roboto;
+  font-family: inherit;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
