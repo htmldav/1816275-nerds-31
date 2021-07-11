@@ -26,6 +26,7 @@
   --basic-very-light-grey: #cfcfcf;
   --basic-black-30: #00000030;
   --basic-black-60: #00000060;
+  --basic-black-10: #00000010;
   --basic-grey-extra-light: #f7f7f7;
   --basic-black-66: #00000066;
   --basic-black-40: #00000040;
@@ -1103,7 +1104,7 @@ textarea:focus {
   margin: 0;
   object-fit: contain;
   background-color: var(--basic-grey-extra-light);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--basic-black-10);
   border-radius: 0 0 5px 5px;
   border-top: none;
 }
