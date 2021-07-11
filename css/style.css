@@ -976,6 +976,7 @@ textarea:focus {
 
 .pagination-item span {
   padding-top: 2px;
+  vertical-align: middle;
   display: inline-block;
 }
 
@@ -1130,6 +1131,7 @@ textarea:focus {
   line-height: 30px;
   text-align: left;
   color: var(--basic-black);
+  vertical-align: middle;
   display: inline-block;
   margin-top: 20px;
 }
@@ -1203,7 +1205,6 @@ textarea:focus {
 .page-title-wrapper {
   background-color: var(--basic-neutral-background-nav);
 }
-
 
 .page-title {
   font-size: 55px;
@@ -1444,6 +1445,7 @@ textarea:focus {
   width: 11px;
   min-height: 10px;
   background: url("../img/catalog/icon-down-gray.svg") no-repeat;
+  vertical-align: middle;
   display: inline-block;
   opacity: 0.2;
 }
@@ -1452,6 +1454,7 @@ textarea:focus {
   width: 11px;
   min-height: 10px;
   background: url("../img/catalog/icon-up-dir-gray.svg") no-repeat;
+  vertical-align: middle;
   display: inline-block;
   opacity: 0.2;
 }
@@ -1719,6 +1722,7 @@ fieldset {
   line-height: 5px;
   width: 0.4em;
   border-bottom: 1px solid var(--basic-black);
+  vertical-align: middle;
   display: inline-block;
 }
 
