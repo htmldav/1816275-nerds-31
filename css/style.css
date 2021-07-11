@@ -1071,16 +1071,20 @@ textarea:focus {
   color: var(--basic-black-30);
 }
 
-.manner-list .manner-item:hover {
+.manner-item a {
+  color: var(--basic-black-30);
+}
+
+.manner-item a:hover {
   color: var(--basic-black-60);
 }
 
-.manner-list .item-picked {
+.item-picked a {
   color: var(--basic-black);
 }
 
-.manner-item:focus,
-.manner-item:active {
+.manner-item a:focus,
+.manner-item a:active {
   color: var(--basic-black);
 }
 
