@@ -990,7 +990,7 @@ textarea:focus {
   list-style: none;
 }
 
-.pagination-item a:not(.pagination-item-next) {
+.pagination-item a {
   width: 50px;
   min-height: 50px;
   line-height: 50px;
@@ -1000,7 +1000,7 @@ textarea:focus {
   background-color: var(--basic-neutral-background-nav);
 }
 
-.pagination-list .pagination-item-next a {
+.pagination-item-next a {
   width: 260px;
   min-height: 50px;
   line-height: 50px;
@@ -1012,7 +1012,7 @@ textarea:focus {
   background-color: var(--basic-neutral-background-nav);
 }
 
-.pagination-list .pagination-item-current a {
+.pagination-item-current a {
   width: 44px;
   min-height: 44px;
   line-height: 44px;
