@@ -164,8 +164,10 @@ img {
 
 .cart-navigation a:focus,
 .site-navigation a:focus {
+  color: var(--basic-black);
   opacity: 0.3;
 }
+
 
 .main-header-logo img:hover {
   opacity: 0.7;
@@ -173,13 +175,6 @@ img {
 
 .main-header-logo:focus {
   opacity: 0.3;
-}
-
-.site-navigation a:hover,
-.site-navigation a:focus,
-.cart-navigation a:hover,
-.cart-navigation a:focus {
-  background-color: var(--basic-neutral-background-nav);
 }
 
 /* Container */
@@ -711,7 +706,7 @@ img {
   border: none;
 }
 
-.footer-map map {
+.footer-map img {
   width: 100%;
   border: none;
 }
