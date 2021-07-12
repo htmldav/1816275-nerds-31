@@ -711,6 +711,11 @@ img {
   border: none;
 }
 
+.footer-map map {
+  width: 100%;
+  border: none;
+}
+
 /* Contacts */
 
 .footer-contacts {
