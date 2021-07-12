@@ -581,7 +581,7 @@ img {
   opacity: 1;
 }
 
-.clients-list .barbershop_logo:focus {
+.clients-list .barbershop_logo:active {
   opacity: 0.1;
 }
 
@@ -593,7 +593,7 @@ img {
   opacity: 1;
 }
 
-.clients-list .htmlacademy_logo:focus {
+.clients-list .htmlacademy_logo:active {
   opacity: 0.1;
 }
 
@@ -605,7 +605,7 @@ img {
   opacity: 1;
 }
 
-.clients-list .pink_logo:focus {
+.clients-list .pink_logo:active {
   opacity: 0.1;
 }
 
@@ -617,7 +617,7 @@ img {
   opacity: 1;
 }
 
-.clients-list .mishka_logo:focus {
+.clients-list .mishka_logo:active {
   opacity: 0.1;
 }
 
