@@ -899,27 +899,20 @@ textarea:focus {
   background-color: transparent;
   border: 0;
   cursor: pointer;
-}
-
-.modal-close::before,
-.modal-close::after {
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 29px;
-  min-height: 3px;
-  background-color: var(--basic-red);
+  background-image: url("../img/catalog/close-cross.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
   opacity: 0.3;
 }
 
-.modal-close::before {
-  transform: rotate(45deg);
+.modal-close:hover {
+  opacity: 1;
 }
 
-.modal-close::after {
-  transform: rotate(-45deg);
+.modal-close:active {
+  opacity: 0.1;
 }
+
 
 .modal-description {
   margin-left: 100px;
