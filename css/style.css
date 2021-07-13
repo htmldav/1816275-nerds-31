@@ -313,6 +313,8 @@ img {
 .services-item p {
   margin-bottom: 30px;
   text-transform: none;
+  font-weight: 400;
+  color: var(--basic-cod-grey);
 }
 
 /* Button */
