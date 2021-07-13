@@ -168,7 +168,6 @@ img {
   opacity: 0.3;
 }
 
-
 .main-header-logo img:hover {
   opacity: 0.7;
 }
@@ -915,7 +914,6 @@ textarea:focus {
   opacity: 0.1;
 }
 
-
 .modal-description {
   margin-left: 100px;
   margin-top: 63px;
@@ -1447,8 +1445,6 @@ textarea:focus {
 }
 
 .order-list .order-down-item {
-  width: 11px;
-  min-height: 10px;
   background: url("../img/catalog/icon-down-gray.svg") no-repeat;
   vertical-align: middle;
   display: inline-block;
@@ -1456,15 +1452,20 @@ textarea:focus {
 }
 
 .order-list .order-up-item {
-  width: 11px;
-  min-height: 10px;
   background: url("../img/catalog/icon-up-dir-gray.svg") no-repeat;
   vertical-align: middle;
   display: inline-block;
   opacity: 0.2;
 }
 
-.order-list:hover .order-down-item:hover {
+.order-up-item a,
+.order-down-item a {
+  display: block;
+  width: 11px;
+  min-height: 10px;
+}
+
+.order-list .order-down-item:hover {
   opacity: 1;
 }
 
@@ -1472,7 +1473,7 @@ textarea:focus {
   opacity: 1;
 }
 
-.order-list:hover .order-down-item:active {
+.order-list .order-down-item:active {
   background: url("../img/catalog/icon-down-dir-black.svg") no-repeat;
 }
 
