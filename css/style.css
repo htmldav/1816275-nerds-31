@@ -450,6 +450,7 @@ img {
 .company-pride-list-wrapper > p {
   text-align: center;
   margin: 0px;
+  font-weight: 700;
 }
 
 .company-pride-list-wrapper p {
@@ -471,6 +472,7 @@ img {
 
 .company-pride-item .advantage {
   margin-top: 14px;
+  color: var(--basic-cod-grey);
 }
 
 .company h3 {
@@ -480,17 +482,16 @@ img {
   text-transform: none;
 }
 
-.company p {
-  text-transform: none;
-}
 
 .company h4 {
-  font-weight: 500;
+  font-weight: 700;
+  color: var(--basic-cod-grey);
 }
 
-.company p {
-  font-weight: 700;
-  text-transform: uppercase;
+.company-wrapper p {
+  text-transform: none;
+  font-weight: 400;
+  color: var(--basic-cod-grey);
 }
 
 .company-list {
@@ -501,6 +502,7 @@ img {
 
 .company-item {
   position: relative;
+  color: var(--basic-cod-grey);
 }
 
 .company-item::before {
