@@ -1125,7 +1125,7 @@ textarea:focus {
   background: var(--basic-extra-dark-red);
 }
 
-.templates-item-background {
+.templates-item-background p {
   padding: 0 20px;
 }
 
