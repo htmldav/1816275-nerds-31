@@ -1716,11 +1716,11 @@ fieldset {
   background-image: url("../img/templates-over.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-  opacity: 1;
+  opacity: 0.12;
 }
 
 .templates-item:hover.templates-item::before {
-  opacity: 0.12;
+  opacity: 1;
 }
 
 .rub {
