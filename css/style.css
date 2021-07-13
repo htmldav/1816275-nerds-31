@@ -338,6 +338,7 @@ img {
   padding: 0px;
   width: 260px;
   color: var(--basic-black);
+  background: var(--basic-neutral-background-nav);
 }
 
 .grey-button:hover {
@@ -348,6 +349,7 @@ img {
 .grey-button:active {
   background: var(--basic-extra-dark-grey);
   color: var(--basic-black-30);
+  box-shadow: 0px 3px 0px 0px var(--basic-grey-shadow) inset;
 }
 
 .red-button {
