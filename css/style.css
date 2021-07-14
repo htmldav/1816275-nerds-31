@@ -240,7 +240,6 @@ img {
   justify-self: left;
 }
 
-
 .feature-item img {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
@@ -479,7 +478,6 @@ img {
   font-weight: 500;
   text-transform: none;
 }
-
 
 .company h4 {
   font-weight: 700;
@@ -867,6 +865,28 @@ textarea:focus {
   border-color: var(--basic-black);
 }
 
+.feedback-button {
+  min-height: 50px;
+  width: 219px;
+  margin: 0 50px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  border-radius: 3px;
+}
+
+.feedback-button:hover {
+  background: var(--basic-dark-red);
+}
+
+.feedback-button:focus,
+.feedback-button:active {
+  background: var(--basic-extra-dark-red);
+  color: var(--basic-grey-30);
+  box-shadow: 0px 3px 0px 0px var(--basic-grey-shadow) inset;
+}
+
 .modal-error .user-email,
 .modal-error .full-name-user {
   border-color: var(--basic-dark-red);
@@ -1039,7 +1059,6 @@ textarea:focus {
   box-shadow: 0px 3px 0px 0px var(--basic-grey-shadow) inset;
   color: var(--basic-grey-30);
 }
-
 
 .pagination-item-next:active {
   background-color: var(--basic-extra-dark-grey);
