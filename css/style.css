@@ -196,6 +196,8 @@ img {
 }
 
 .feature-item-slogan p {
+  width: 416px;
+  min-height: 48px;
   margin-top: 28px;
   color: var(--basic-cod-grey);
 }
@@ -238,10 +240,6 @@ img {
   justify-self: left;
 }
 
-.feature-item .feature-item-slogan p {
-  width: 416px;
-  min-height: 48px;
-}
 
 .feature-item img {
   grid-column: 1 / -1;
