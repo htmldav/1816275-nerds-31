@@ -693,23 +693,27 @@ img {
   position: relative;
   margin: 0px;
   padding: 0px;
-  margin-bottom: 60px;
+  margin-bottom: 69px;
   min-height: 416px;
 }
 
 .footer-map {
+  display: grid;
   margin: 0;
   padding: 0;
 }
 
-.footer-map iframe {
+.footer-map iframe,
+.footer-map img {
+  grid-row: 1;
+  grid-column: 1/-1;
   width: 100%;
   border: none;
 }
 
 .footer-map img {
-  width: 100%;
-  border: none;
+  height: 416px;
+  object-fit: cover;
 }
 
 /* Contacts */
@@ -728,7 +732,7 @@ img {
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
-  margin: 45px 0 23px 50px;
+  margin: 50px 0 23px 50px;
 }
 
 .footer-contacts p {
