@@ -19,7 +19,7 @@
   --basic-grey: #e1e1e1;
   --basic-dark-grey: #dfdfdf;
   --basic-extra-dark-grey: #d5d5d5;
-  --basic-dark-grey: #ababab;
+  --basic-dark-toggle-grey: #ababab;
   --basic-cod-grey: #283136;
   --basic-grey-30: #ffffff30;
   --basic-grey-light: #666666;
@@ -1040,9 +1040,6 @@ textarea:focus {
   color: var(--basic-grey-30);
 }
 
-.pagination-item-next:hover {
-  background-color: var(--basic-dark-grey);
-}
 
 .pagination-item-next:active {
   background-color: var(--basic-extra-dark-grey);
@@ -1298,7 +1295,7 @@ textarea:focus {
   min-height: 4px;
   padding: 0;
   border: 8px solid var(--basic-white);
-  background-color: var(--basic-dark-grey);
+  background-color: var(--basic-dark-toggle-grey);
   border-radius: 50%;
   box-shadow: 0 2px 1px 0 var(--basic-very-light-grey);
   cursor: pointer;
