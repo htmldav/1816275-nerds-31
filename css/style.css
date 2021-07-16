@@ -1341,6 +1341,8 @@ textarea:focus {
   text-transform: uppercase;
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
+  line-height: 22px;
+  color: var(--basic-cod-grey);
 }
 
 .price-controls input {
@@ -1353,7 +1355,8 @@ textarea:focus {
   border-radius: 5px;
   background: var(--basic-light-light-grey);
   font-family: inherit;
-  font-size: inherit;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .price-controls input[type="number"]::-webkit-inner-spin-button,
