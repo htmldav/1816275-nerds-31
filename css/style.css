@@ -1284,7 +1284,7 @@ textarea:focus {
 }
 
 .range-filter {
-  margin-top: 51px;
+  margin-top: 45px;
   width: 260px;
 }
 
@@ -1415,7 +1415,7 @@ textarea:focus {
 
 .filters-cost legend {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 30px;
   text-transform: uppercase;
   font-weight: 700;
 }
