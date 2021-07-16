@@ -36,6 +36,7 @@
   --basic-grey-shadow: #0001011a;
   --basic-light-light-grey: #f1f1f1;
   --basic-matterhorn: #4d4d4d;
+  --basic-charcoal: #444444;
 }
 
 .page-body {
@@ -435,11 +436,6 @@ img {
   margin-top: 24px;
 }
 
-.company .company-wrapper p {
-  margin-top: 35px;
-  text-transform: none;
-}
-
 .company-wrapper .company-item {
   margin-bottom: 24px;
 }
@@ -485,6 +481,7 @@ img {
 }
 
 .company-wrapper p {
+  margin-top: 35px;
   text-transform: none;
   font-weight: 400;
   color: var(--basic-cod-grey);
@@ -766,6 +763,7 @@ img {
 .footer-slogan p {
   font-size: 16px;
   line-height: 22px;
+  color: var(--basic-charcoal);
   text-transform: none;
   margin-top: 11px;
 }
@@ -1203,6 +1201,7 @@ textarea:focus {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  color: var(--basic-cod-grey);
   line-height: 20px;
   text-align: left;
   text-transform: none;
@@ -1212,6 +1211,7 @@ textarea:focus {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  color: var(--basic-cod-grey);
   line-height: 20px;
   text-transform: none;
   width: 100%;
