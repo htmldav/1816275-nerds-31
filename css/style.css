@@ -1142,6 +1142,7 @@ textarea:focus {
 .templates-item button:focus,
 .templates-item button:active {
   background: var(--basic-extra-dark-red);
+  box-shadow: 0px 3px 0px 0px var(--basic-grey-shadow) inset;
 }
 
 .templates-item-background p {
@@ -1163,6 +1164,7 @@ textarea:focus {
 .templates-item-background button {
   margin-top: 13px;
   padding-top: 5px;
+  border-radius: 3px;
 }
 
 .templates-item-background a:hover {
