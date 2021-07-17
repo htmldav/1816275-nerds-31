@@ -37,6 +37,7 @@
   --basic-light-light-grey: #f1f1f1;
   --basic-matterhorn: #4d4d4d;
   --basic-charcoal: #444444;
+  --basic-pattens-blue: #D7DCDF;
 }
 
 .page-body {
@@ -1295,13 +1296,13 @@ textarea:focus {
   padding-left: 20px;
   margin-bottom: 15px;
   padding-top: 39px;
-  background-color: var(--basic-light-light-grey);
-  border-radius: 5px;
+  background-color: var(--basic-neutral-background-nav);
+  border-radius: 3px;
 }
 
 .cost-range .scale {
   min-height: 2px;
-  background: var(--basic-extra-light-blue);
+  background: var(--basic-pattens-blue);
 }
 
 .cost-range .bar {
@@ -1352,8 +1353,8 @@ textarea:focus {
   text-align: center;
   color: var(--basic-cod-grey);
   border: none;
-  border-radius: 5px;
-  background: var(--basic-light-light-grey);
+  border-radius: 3px;
+  background: var(--basic-neutral-background-nav);
   font-family: inherit;
   font-size: 16px;
   line-height: 22px;
