@@ -1398,7 +1398,7 @@ textarea:focus {
   margin-left: 11px;
 }
 
-.container h1.page-title {
+.container .page-title {
   display: inline;
 }
 
