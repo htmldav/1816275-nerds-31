@@ -1025,6 +1025,8 @@ textarea:focus {
   border-radius: 3px;
   color: var(--basic-black);
   background-color: var(--basic-neutral-background-nav);
+  text-align: center;
+  margin-top: auto;
 }
 
 .pagination-item-next a {
@@ -1048,18 +1050,10 @@ textarea:focus {
   background-color: var(--basic-white);
 }
 
-.pagination-item a {
-  text-align: center;
-  margin-top: auto;
-}
-
 .pagination-item a:hover {
   background-color: var(--basic-dark-grey);
 }
 
-.pagination-item a:active {
-  background-color: var(--basic-white);
-}
 
 .pagination-item a:focus {
   background-color: var(--basic-extra-dark-grey);
@@ -1067,10 +1061,7 @@ textarea:focus {
   color: var(--basic-grey-30);
 }
 
-.pagination-item-next:active {
-  background-color: var(--basic-extra-dark-grey);
-  color: var(--basic-grey-30);
-}
+
 
 /* Catalog */
 
