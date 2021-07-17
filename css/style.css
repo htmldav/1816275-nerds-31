@@ -1691,7 +1691,7 @@ textarea:focus {
   margin-top: 25px;
 }
 
-fieldset {
+.filters-form fieldset {
   border: none;
 }
 
