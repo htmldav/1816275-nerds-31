@@ -858,17 +858,17 @@ img {
 }
 
 .feedback-form input,
-textarea {
+.feedback-form textarea {
   border: 2px solid var(--basic-extra-light-blue);
 }
 
 .feedback-form input:hover,
-textarea:hover {
+.feedback-form textarea:hover {
   border-color: var(--basic-heather);
 }
 
 .feedback-form input:focus,
-textarea:focus {
+.feedback-form textarea:focus {
   border-color: var(--basic-black);
 }
 
