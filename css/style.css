@@ -745,10 +745,17 @@ img {
   padding-bottom: 22px;
 }
 
+.footer-contacts a:not(.button) {
+  color: var(--basic-grey-light);
+}
+
 .footer-contacts .button {
   min-height: 50px;
   width: 219px;
   margin: 0 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-slogan {
@@ -875,8 +882,7 @@ img {
 .feedback-button {
   min-height: 50px;
   width: 219px;
-  margin: 0 50px;
-  line-height: 50px;
+  line-height: 18px;
   font-size: 16px;
   font-weight: 500;
   display: block;
@@ -995,6 +1001,7 @@ img {
 
 .pagination-item {
   margin-right: 10px;
+  line-height: 18px;
 }
 
 .pagination-item:last-child {
@@ -1004,8 +1011,6 @@ img {
 
 .pagination-item span {
   padding-top: 2px;
-  vertical-align: middle;
-  display: inline-block;
 }
 
 .pagination-list {
@@ -1020,31 +1025,34 @@ img {
 .pagination-item a {
   width: 50px;
   min-height: 50px;
-  line-height: 50px;
+  font-weight: 500;
   display: block;
   border-radius: 3px;
   color: var(--basic-black);
   background-color: var(--basic-neutral-background-nav);
-  text-align: center;
-  margin-top: auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pagination-item-next a {
   width: 260px;
   min-height: 50px;
-  line-height: 50px;
   font-size: 16px;
   font-weight: 500;
   display: block;
   border-radius: 3px;
   color: var(--basic-black);
   background-color: var(--basic-neutral-background-nav);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pagination-item-current a {
   width: 44px;
   min-height: 44px;
-  line-height: 44px;
+  font-weight: 500;
   border: 3px solid var(--basic-gainsboro);
   border-radius: 3px;
   background-color: var(--basic-white);
@@ -1054,14 +1062,11 @@ img {
   background-color: var(--basic-dark-grey);
 }
 
-
 .pagination-item a:focus {
   background-color: var(--basic-extra-dark-grey);
   box-shadow: 0px 3px 0px 0px var(--basic-grey-shadow) inset;
   color: var(--basic-grey-30);
 }
-
-
 
 /* Catalog */
 
@@ -1366,6 +1371,7 @@ img {
   font-family: inherit;
   font-size: 16px;
   line-height: 22px;
+  font-weight: 400;
 }
 
 .price-controls input[type="number"]::-webkit-inner-spin-button,
